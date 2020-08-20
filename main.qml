@@ -10,7 +10,7 @@ ApplicationWindow{
         anchors.fill: parent
         MediaPlayer{
             id: mediaPlayer
-            source: 'http://66.97.41.234:8081/files/test.m3u8'
+            source: 'http://66.97.41.234:8081/files/test.m3u8?r=31315'
             autoPlay: true
             autoLoad: true
         }
